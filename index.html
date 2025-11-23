@@ -2,7 +2,8 @@
   <head>
     <meta charset="utf-8" />
     <title>ChefJo</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="maint.css" />
+    <meta name="format-detection" content="tel=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -10,15 +11,16 @@
       <div class="logo">
         <img src="img/logo.jpg" alt="Logo du site" />
       </div>
-      <a href="#">Prestations</a>
       <a href="#">Réalisations</a>
-      <a href="#">Contact</a>
+      <a href="#spage">Prestations</a>
+      <a href="#tpage">Contact</a>
     </div>
     <!-- Page -->
 
-    <div class="first-page">
+    <div class="first-page" id="fpage">
       <article class="presentation">
         <img src="img/profil.jpg" alt="" class="profile" />
+        <p class="name">Joann Reigney</p>
         <div class="description">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -32,7 +34,7 @@
       </article>
     </div>
 
-    <div class="second-page">
+    <div class="second-page" id="spage">
       <div class="plats">
         <div class="slider">
           <div class="slides">
@@ -87,6 +89,25 @@
           <p>
             Ne changez pas vos habitudes et permettez moi de vous préparer des
             incontournables
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="third-page" id="tpage">
+      <div class="contact">
+        <div class="numero">
+          <p x-apple-data-detectors="false">
+            Pour me contacter au<br /><br />06 &zwj;34 58 &zwj;03 38
+          </p>
+          <a href="tel:0634580338">Par téléphone</a>
+          <a href="sms:0634580338">Par sms</a>
+        </div>
+        <div class="dispo">
+          <p>Si vous avez déjà un projet n'hésitez pas à me le présenter</p>
+          <p>
+            Je travaille du mardi au dimanche et j'adapte mes heures à mes
+            clients
           </p>
         </div>
       </div>
