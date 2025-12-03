@@ -16,9 +16,18 @@
   src: url("fonts/ananda.ttf");
 }
 
+@font-face {
+  font-family: baskerville;
+  src: url("fonts/baskerville.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -72,9 +81,9 @@ body {
   font-size: 0.9em;
 }
 
-.navbar a:hover {
+/*.navbar a:hover {
   text-decoration: underline;
-}
+}*/
 
 .first-page {
   display: flex;
@@ -115,6 +124,7 @@ body {
   margin: auto;
   margin-top: 1.2em;
   font-size: 1.1em;
+  font-family: baskerville;
 }
 
 .second-page {
@@ -213,6 +223,7 @@ body {
   text-align: center;
   margin: auto;
   margin-bottom: 2em;
+  font-size: 1.2em;
 }
 
 .dispo p {
@@ -220,4 +231,5 @@ body {
   text-align: center;
   margin: auto;
   margin-top: 1.5em;
+  font-size: 1.2em;
 }
