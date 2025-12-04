@@ -564,6 +564,45 @@ h2 {
 /* Format téléphone*/
 @media screen and (max-width: 42em) {
   .navbar {
+    background-color: var(--secondary-color);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0em;
+    right: 0em;
+    padding: 0.8em 0em;
+    box-shadow: 0em 0.1em 0.8em var(--shadow-color);
+  }
+
+  .nav-container {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+  }
+
+  .navbar p {
+    width: 3em;
+    font-family: ananda;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.2em 0em 0em 0em;
+    margin-left: 1.2em;
+  }
+
+  .navbar .menu-container {
+    margin: auto;
+    margin-right: 1em;
+  }
+
+  .menu-container a {
+    padding: 0.2em 0.4em 0em 0.4em;
+    font-family: ananda;
+    font-size: 1.2em;
+    color: #000000;
+    text-decoration: none;
+  }
+  /*.navbar {
     position: fixed;
     display: flex;
     z-index: 999;
@@ -571,7 +610,7 @@ h2 {
     right: 0.5em;
     /*left: 50%;
     transform: translate(-50%, 0%);*/
-    padding: 0.3em 0.3em;
+  /*padding: 0.3em 0.3em;
     border-radius: 0.25em;
     border: 1px solid #eee;
     background-color: var(--secondary-color);
@@ -589,7 +628,7 @@ h2 {
     font-size: 1.2em;
     color: #000000;
     text-decoration: none;
-  }
+  }*/
 
   .le-chef {
     align-items: center;
@@ -599,7 +638,7 @@ h2 {
   }
 
   .le-chef h2 {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 20px;
   }
 
@@ -637,7 +676,7 @@ h2 {
   }
 
   .galerie h2 {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 25px;
   }
 
@@ -693,7 +732,7 @@ h2 {
   }
 
   .contact h2 {
-    padding-top: 80px;
+    padding-top: 100px;
   }
 
   .contact-sub-container {
