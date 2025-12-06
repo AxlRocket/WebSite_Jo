@@ -377,6 +377,10 @@ h2 {
     margin-bottom: 2em;
   }
 
+  .scaler {
+    transform: scale(1.2);
+  }
+
   .profil {
     display: block;
     width: 100%;
@@ -384,7 +388,8 @@ h2 {
     margin: auto;
     margin-bottom: 0;
     object-fit: cover; /* important pour garder le cadrage */
-    transform: scale(1); /* grossit le contenu */
+    object-position: top left;
+    transform-origin: center;
   }
 
   .flex-container {
@@ -658,8 +663,8 @@ h2 {
     margin: auto;
     margin-bottom: 0;
     object-fit: cover; /* important pour garder le cadrage */
-    transform: scale(1.3); /* ← grossit le contenu */
-    border-radius: 1em 1em 0em 0em;
+    transform: scale(1); /* ← grossit le contenu */
+    border-radius: 0em 0em 0em 0em;
   }
 
   .flex-container {
